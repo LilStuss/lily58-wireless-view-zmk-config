@@ -85,11 +85,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &trans     &trans     &trans    &trans     &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
+&trans  &trans  &trans  &trans     &trans        &trans                                    &trans  &trans     &trans     &trans    &trans     &trans
+&trans  &trans  &trans  &kp N3     &trans        &trans                                    &trans  &kp N7     &kp N8     &kp N9    &trans     &trans
+&trans  &trans  &kp F3  &kp F4     &kp F5        &trans                                    &trans  &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&trans  &trans  &trans  &trans     &trans        &trans         &to 0              &tog 2  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &trans     &trans
+                        &kp LCTRL  &kp LEFT_ALT  &kp LS(LCTRL)  &mt LSHFT SPACE    &trans  &mo 2   &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -97,11 +97,11 @@
 
         Gaming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&kp ESCAPE     &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_6   &kp N7          &kp Q         &kp W         &kp E         &kp R                                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSPACE  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F                                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N5         &kp LCTRL       &kp Z         &kp X         &kp C         &kp V          &kp G        &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                             &kp A         &kp LEFT_ALT  &kp LS(LCTRL)  &kp SPACE    &lt 1 ENTER  &trans  &trans  &trans
             >;
         };
 
