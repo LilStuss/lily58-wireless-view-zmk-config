@@ -51,7 +51,7 @@
 &kp TAB               &kp Q         &kp W         &kp F             &kp P         &kp B                                                      &kp J         &kp L          &kp U             &kp Y     &kp BACKSLASH  &kp MINUS
 &kp DELETE            &kp A         &kp R         &kp S             &kp T         &kp G                                                      &kp M         &kp N          &kp E             &kp I     &kp O          &kp GRAVE
 &kp LEFT_PARENTHESIS  &kp Z         &kp X         &kp C             &kp D         &kp V                 &kp KP_COMMA            &kp KP_DOT   &kp K         &kp H          &kp SINGLE_QUOTE  &kp SEMI  &kp SLASH      &kp RIGHT_PARENTHESIS
-                                                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LS(LEFT_CONTROL)  &mt LEFT_SHIFT SPACE    &lt 1 ENTER  &trans        &kp BACKSPACE  &kp LEFT_WIN
+                                                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LS(LEFT_CONTROL)  &mt LEFT_SHIFT SPACE    &lt 1 ENTER  &to 1         &kp BACKSPACE  &kp LEFT_WIN
             >;
 
             label = "Base";
@@ -80,7 +80,7 @@
         Gaming {
             bindings = <
 &kp ESCAPE     &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_6   &kp N7          &kp Q         &kp W         &kp E         &kp R                                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_6   &kp TAB         &kp Q         &kp W         &kp E         &kp R                                    &trans  &trans  &trans  &trans  &trans  &trans
 &kp BACKSPACE  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F                                    &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5         &kp LCTRL       &kp Z         &kp X         &kp C         &kp V          &kp G        &trans       &trans  &trans  &trans  &trans  &trans  &trans
                                              &kp A         &kp LEFT_ALT  &kp LS(LCTRL)  &kp SPACE    &lt 1 ENTER  &to 1   &trans  &trans
