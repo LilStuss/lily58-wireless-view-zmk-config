@@ -59,11 +59,11 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans          &trans          &trans     &trans                    &trans  &trans    &trans          &trans           &trans  &trans
-&trans  &trans  &trans          &trans          &trans     &trans                    &trans  &trans    &trans          &trans           &trans  &trans
-&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                    &trans  &trans    &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-                                &tog 2          &to 3      &to 0   &mo 1     &mo 1   &to 0   &to 3     &to 2
+&trans  &trans            &trans          &trans          &trans     &trans                                 &trans  &trans    &trans          &trans           &trans             &trans
+&trans  &trans            &trans          &trans          &trans     &trans                                 &trans  &trans    &trans          &trans           &trans             &trans
+&trans  &kp LEFT_SHIFT    &trans          &kp UP_ARROW    &trans     &trans                                 &trans  &trans    &kp UP_ARROW    &trans           &kp RIGHT_SHIFT    &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &kp LEFT_GUI    &kp RIGHT_GUI  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_CONTROL  &trans
+                                          &tog 2          &to 3      &to 0   &mo 1           &mo 1          &to 0   &to 3     &to 2
             >;
 
             label = "Navigation";
@@ -71,11 +71,11 @@
 
         Gaming {
             bindings = <
-&kp ESCAPE     &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_6   &kp TAB         &kp Q         &kp W         &kp E         &kp R                                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp BACKSPACE  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F                                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp N5         &kp LCTRL       &kp Z         &kp X         &kp C         &kp V          &kp G        &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                             &mo 3         &kp LEFT_ALT  &kp LS(LCTRL)  &kp SPACE    &lt 0 ENTER  &to 0   &trans  &trans
+&kp ESCAPE     &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                             &none  &none  &none      &none  &none  &none
+&kp NUMBER_6   &kp TAB         &kp Q         &kp W         &kp E         &kp R                                    &none  &none  &none      &none  &none  &none
+&kp BACKSPACE  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F                                    &kp Y  &none  &none      &none  &none  &none
+&kp N5         &kp LCTRL       &kp Z         &kp X         &kp C         &kp V          &kp G        &kp T        &none  &none  &none      &none  &none  &none
+                                             &mo 3         &kp LEFT_ALT  &kp LS(LCTRL)  &kp SPACE    &lt 0 ENTER  &to 0  &none  &kp SLASH
             >;
 
             label = "Games";
@@ -83,11 +83,11 @@
 
         Coding {
             bindings = <
-&kp ESCAPE  &kp F1            &kp F2        &kp F3        &kp F4        &kp F5                                       &kp F6         &kp F7         &kp F8     &kp F9  &kp F10  &kp
-&kp TAB     &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                       &kp NUMBER_6   &kp N7         &kp N8     &kp N9  &kp N0   &kp
-&kp DELETE  &kp LEFT_SHIFT    &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH                                    &kp PAGE_UP    &kp RIGHT_GUI  &kp        &kp     &kp      &kp
-&kp EQUAL   &kp LEFT_CONTROL  &kp           &kp           &kp           &kp        &mo 3             &mo 3           &kp PAGE_DOWN  &kp            &kp        &kp     &kp      &kp MINUS
-                                            &kp LEFT_GUI  &kp           &kp        &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp BACKSPACE  &to 0          &kp ENTER
+&kp ESCAPE  &kp F1            &kp F2        &kp F3        &kp F4        &kp F5                                       &kp F6         &kp F7         &kp F8     &kp F9  &kp F10  &none
+&kp TAB     &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                       &kp NUMBER_6   &kp N7         &kp N8     &kp N9  &kp N0   &none
+&kp DELETE  &kp LEFT_SHIFT    &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH                                    &kp PAGE_UP    &kp RIGHT_GUI  &none      &none   &none    &none
+&kp EQUAL   &kp LEFT_CONTROL  &none         &none         &none         &none      &mo 3             &mo 3           &kp PAGE_DOWN  &none          &none      &none   &none    &kp MINUS
+                                            &kp LEFT_GUI  &none         &none      &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp BACKSPACE  &to 0          &kp ENTER
             >;
 
             label = "Code";
